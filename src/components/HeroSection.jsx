@@ -13,9 +13,9 @@ export default function HeroSection() {
         and optimize your school’s resources.
       </p>
       <div className="flex gap-4 justify-center flex-wrap">
-        <button className="bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-500 transition cursor-pointer">
+        <Link to={"/userdashboard"} className="bg-yellow-400 text-black px-6 py-3 rounded-xl font-semibold hover:bg-yellow-500 transition cursor-pointer">
           Generate Free Timetable
-        </button>
+        </Link>
         <Link to="/guide">
           <button className="bg-white/10 px-6 py-3 rounded-xl font-semibold hover:bg-white/20 transition cursor-pointer">
             View Guide
